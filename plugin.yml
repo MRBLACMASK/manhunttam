@@ -1,0 +1,9 @@
+name: Manhunt
+version: '${project.version}'
+main: com.manhunt.ManhuntPlugin
+api-version: '1.21'
+description: Kacan ile rastgele avcinin yer degistirdigi Manhunt oyunu
+commands:
+  manhunt:
+    description: Manhunt komutlari
+    usage: /manhunt <baslat|durdur|pusula>
